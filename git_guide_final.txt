@@ -1,0 +1,32 @@
+git hub 명령 프롬포트에서 업로드 하는 방법
+
+1. d드라이브에 폴더 생성
+
+2. cmd 창에서
+
+d: 입력
+
+cd 폴더명 입력
+
+git init     ->초기화 
+
+git add yedam.txt ( or *)
+
+git config --global user.email "이메일@주소"
+
+git config --global user.name "닉네임"
+
+git config --list
+
+git commit -m 'test' (m은 메세지) commit > 파일을 올려주는 명령어
+
+git remote add origin https://github.com/rnjsalgus211/test.git (깃허브 경로)
+
+git remote -v (등록이 되었는지 확인)
+주소~(fetch)
+주소~(push)   >> 내가 등록한 주소와 일치하면 완료
+
+git push origin master  (내가 현재 있는 로컬 피시로 보내주겠다)
+
+
+
